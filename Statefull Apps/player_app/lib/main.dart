@@ -15,10 +15,9 @@ class _PlayerAppState extends State<PlayerApp> {
   int counter = 0;
   List<String> playerList = <String>[
     "https://upload.wikimedia.org/wikipedia/commons/1/1e/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg",
-    "https://dicdn.bigfuck.tv/sQtW6jIvZ6H33WLqZRY3Exp7P6g9OPfZLvy31jKTi7Q/rs:fill:360:506/crop:0:0.90:no/enlarge:1/wm:1:nowe:0:0:1/wmu:aHR0cHM6Ly9jZG42OTY5NjE2NC5haGFjZG4ubWUvcG9ybnN0YXJfYXZhdGFyX3dhdGVybWFyay5wbmc=/aHR0cHM6Ly9pY2RuMDUuYmlnZnVjay50di9wb3Juc3Rhci83MDQvZTRlMDUyMWYyZDY2ZjMzMjk1MTNmZjM3ZDM2MTNiM2YuanBn.webp",
-    "https://content.vrbangers.com/uploads/2021/09/6141b523e2daa461988423.jpg",
-    "https://thelordofporn.com/wp-content/uploads/2014/10/Sunny-Leone-Pornstar.png",
-    "https://www.hollywoodreporter.com/wp-content/uploads/2012/08/jism-2_sunny_leone_fnl.jpg?w=1440&h=810&crop=1"
+    "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRN_YLneDIMiLFQizeNOh3Y9bQs4a5nzAoD24ROXw-6zVQ7UZ-l",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQicAasVI4psEAPfyTVihYOTd6yJIra5HvNUqaWkBUDBnjiG3f",
+    "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLSfRTce6vQU6s83HUOgd7b6PCuWUAW0SSgHcxVP97N2H7iV3j"
   ];
 
   @override
