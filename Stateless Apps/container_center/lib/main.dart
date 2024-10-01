@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 void main() {
   runApp(const MainApp());
 }
@@ -9,13 +10,19 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+         appBar:AppBar(
+          title:const Text("Center Container"),
+          centerTitle: true,
+          backgroundColor:  Colors.orange,
+        ),
         body: Center(
           child: Container(
-            width: 150,
-            height: 150,
-            color: Colors.orange,
+            height: 300,
+            width: 300,
+            color: Colors.brown,
           ),
         ),
       ),
