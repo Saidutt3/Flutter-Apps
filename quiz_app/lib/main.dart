@@ -233,16 +233,17 @@ class _QuizAppState extends State {
           onPressed: () {
             if (selectedAnswerIndex != -1) {
               //result screen cond
+              if (selectedAnswerIndex ==
+                  allQuestions[currentQuestionIndex]["correctAnswer"]) {
+                score++;
+                // print($score);
+              }
               if (currentQuestionIndex < allQuestions.length - 1) {
                 currentQuestionIndex++;
               } else {
                 questionPage = false;
               }
-              if (selectedAnswerIndex ==
-                  allQuestions[currentQuestionIndex]["correctAnswer"]) {
-                score++;
-                print($score);
-              }
+
               selectedAnswerIndex = -1;
               setState(() {});
             }
@@ -288,7 +289,7 @@ class _QuizAppState extends State {
               ),
             ),
             const SizedBox(height: 30),
-            Text("Score :$score "),
+            Text("Score :$score/5 "),
             const SizedBox(height: 30),
             ElevatedButton(
                 onPressed: () {
